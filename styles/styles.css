@@ -16,6 +16,10 @@ a {
   font-size: 1.125rem;
 }
 
+a:hover {
+  font-size: 1.5rem;
+}
+
 .container {
   height: 10rem;
   width: auto;
@@ -64,7 +68,8 @@ a {
 .header-btn {
   height: 3rem;
   width: 10rem;
-  border-radius: 20%;
+  border: 3px solid #F9FAF8;
+  border-radius: 8%;
   background-color: #3882F6;
   color: #F9FAF8;
   font-weight: 700;
@@ -133,4 +138,89 @@ a {
 .fig-captions {
   width: 12rem;
   margin: 0 2rem;
+}
+/* Second section */
+.container-sec-two {
+  background-color: #E5E7EB;
+  height: 40rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fig-sec-two {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  color: #1F2937;
+}
+
+.bq-p {
+  font-size: 2.125rem;
+  font-weight: 100;
+  padding: 3rem 30rem;
+}
+
+.fig-caption {
+  width: 30rem;
+  align-self: flex-end;
+  margin-right: 17rem;
+  font-weight: 700;
+  font-size: 1.5rem; 
+}
+
+/* Section three */
+.container-sec-three {
+  height: 40rem;
+  background-color: #F9FAF8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-art-three {
+  height: 20rem;
+  width: 80rem;
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #F9FAF8;
+}
+
+.sec-three-p-one {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.sec-three-btn {
+  height: 4rem;
+  width: 10rem;
+  background-color: #3882F6;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #F9FAF8;
+  border: 3px solid #F9FAF8;
+  border-radius: 8%;
+}
+
+.sec-three-btn:hover {
+  background-color: #220af5;
+}
+
+/* Footer */
+.container-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15rem;
+  background-color: #1F2937;
+}
+
+.footer-p {
+  color: #F9FAF8;
+  font-size: 1.5rem;
 }
